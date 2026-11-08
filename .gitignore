@@ -1,0 +1,36 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+
+# iOS
+**/ios/Pods/
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Environment
+.env
+# Local MRI uploads and generated results
+backend/data/
+.env.*
+!.env.example
+*.log
